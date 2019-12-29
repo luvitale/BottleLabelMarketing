@@ -34,10 +34,14 @@ public class CustomTrackableEventHandler : DefaultTrackableEventHandler
     protected override void OnTrackingFound()
     {
         base.OnTrackingFound();
+
+        if (isVideoEnabled) videoPlayer.Play();
     }
 
     protected override void OnTrackingLost()
     {
         base.OnTrackingLost();
+
+        if (isVideoEnabled) videoPlayer.Pause();
     }
 }
