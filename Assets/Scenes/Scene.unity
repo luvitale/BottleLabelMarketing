@@ -615,16 +615,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1671354631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ba3a0fcb366f2f479ce8d5a274c6b12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 1
+  StatusFilter: 2
   OnTargetFound:
     m_PersistentCalls:
       m_Calls: []
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
+  isVideoEnabled: 0
+  videoPlayer: {fileID: 0}
+  rawImage: {fileID: 0}
 --- !u!114 &1671354636
 MonoBehaviour:
   m_ObjectHideFlags: 0
